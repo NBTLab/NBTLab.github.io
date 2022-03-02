@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #00A693;
+		background-color: #a51b1b00;
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url(images/overlay.png), -webkit-linear-gradient(45deg, #21ad32 15%, #29a19b 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #00A693 15%, #768de3 85%);
+		background-image: url(images/overlay.png), linear-gradient(45deg, #18e5c8 15%, #5f4d93 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: ##54495300;
+		background-color: #19a99cd9;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
