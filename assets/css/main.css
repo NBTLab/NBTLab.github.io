@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
+		background-color: #00A693;
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #00A693 15%, #768de3 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: ##54495300;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -2517,6 +2517,14 @@ input, select, textarea {
 			width: 100%;
 			margin-left: 0;
 		}
+		ul.actions.special_alum {
+			-moz-justify-content: left;
+			-webkit-justify-content: left;
+			-ms-justify-content: left;
+			justify-content: left;
+			width: 100%;
+			margin-left: 0;
+		}
 
 			ul.actions.special li:first-child {
 				padding-left: 0;
@@ -2638,6 +2646,7 @@ input, select, textarea {
 
 	header.major {
 		margin-bottom: 3em;
+		text-align: center;
 	}
 
 		header.major h2 {
@@ -3544,13 +3553,16 @@ input, select, textarea {
 			color: #636363;
 		}
 
-		#main header.major h2:after {
+		/* #main header.major h2:after {
+			text-align: center;
+			align-self: center;
+			align-content: center;
 			background-color: #dddddd;
 			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-		}
+		} */
 
 		#main table tbody tr {
 			border-color: #dddddd;
@@ -3783,3 +3795,10 @@ input, select, textarea {
 			}
 
 		}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
